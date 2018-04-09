@@ -339,3 +339,7 @@ recip = vmulq_f32 (vrecpsq_f32 (src, rec), rec);再次执行后能基本能达�
 - vcvtq_n_type1_type2:
 - vreinterpret_type1_type2: 将元素类型为type2的vector转换为元素类型为type1的vector。数据重新解析
 - vreinterpretq_type1_type2:
+
+- 详细的armeabi-v7a文档可以看[ARMV7 NEON汇编指令详解中文版.pdf](https://github.com/rogerou/Arm-neon-intrinsics/blob/master/ARMV7%20NEON%E6%B1%87%E7%BC%96%E6%8C%87%E4%BB%A4%E8%AF%A6%E8%A7%A3%E4%B8%AD%E6%96%87%E7%89%88.pdf)
+- 指令周期，吞吐量可以看[Cortex_A57_Software_Optimization_Guide_external.pdf](https://github.com/rogerou/Arm-neon-intrinsics/blob/master/Cortex_A57_Software_Optimization_Guide_external.pdf)
+
