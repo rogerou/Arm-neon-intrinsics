@@ -1,5 +1,5 @@
 # Arm-neon-intrinsics
- arm neon 方面的文档真的很少，所以整理下intrinsics指令的内容和文档 ：）
+ arm neon 方面的文档真的很少，所以整理下intrinsics指令的内容和文档 ：）[asm写法参考gcc内联汇编](https://github.com/tidyjiang8/arm-gcc-inline-assembler)
  
 ### 更详细的armeabi-v7a文档可以看[ARMV7 NEON汇编指令详解中文版.pdf](https://github.com/rogerou/Arm-neon-intrinsics/blob/master/ARMV7%20NEON%E6%B1%87%E7%BC%96%E6%8C%87%E4%BB%A4%E8%AF%A6%E8%A7%A3%E4%B8%AD%E6%96%87%E7%89%88.pdf)
 ### 指令周期，吞吐量可以看[Cortex_A57_Software_Optimization_Guide_external.pdf](https://github.com/rogerou/Arm-neon-intrinsics/blob/master/Cortex_A57_Software_Optimization_Guide_external.pdf)
