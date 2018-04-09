@@ -1,5 +1,5 @@
 # Arm-neon-intrinsics
-arm neon 相关文档和指令意义
+ arm neon 方面的文档真的很少，所以整理下intrinsics指令的内容和文档 ：）
 ## 初始化寄存器
 - vcreate_type: 将一个64bit的数据装入vector中，并返回元素类型为type的vector。r=a
 - vdup_n_type/vmov_n_type: 用类型为type的数值，初始化一个元素类型为type的新vector的所有元素。ri=a 
