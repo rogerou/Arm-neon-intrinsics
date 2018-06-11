@@ -59,7 +59,7 @@
 - vget_high_type: 获取128bit vector的高半部分元素，输出的是元素类型相同的64bit vector。
 - vget_lane_type: 获取元素类型为type的vector中指定的某个元素值。
 - vgetq_lane_type:
-- ## 直接设置neon寄存器某个通道的值
+## 直接设置neon寄存器某个通道的值
 - vset_lane_type: 设置元素类型为type的vector中指定的某个元素的值，并返回新vector。
 - vsetq_lane_type:
 ## 寄存器数据重排
