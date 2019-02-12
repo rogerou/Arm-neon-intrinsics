@@ -4,6 +4,7 @@
 ### 更详细的armeabi-v7a文档可以看[ARMV7 NEON汇编指令详解中文版.pdf](https://github.com/rogerou/Arm-neon-intrinsics/blob/master/ARMV7%20NEON%E6%B1%87%E7%BC%96%E6%8C%87%E4%BB%A4%E8%AF%A6%E8%A7%A3%E4%B8%AD%E6%96%87%E7%89%88.pdf)
 ### 指令周期，吞吐量可以看[Cortex_A57_Software_Optimization_Guide_external.pdf](https://github.com/rogerou/Arm-neon-intrinsics/blob/master/Cortex_A57_Software_Optimization_Guide_external.pdf)
 ### [asm写法参考gcc内联汇编](https://github.com/tidyjiang8/arm-gcc-inline-assembler)
+### [intrinsics对应aarch64或aarch32 asm 指令说明](https://github.com/rogerou/Arm-neon-intrinsics/blob/master/IHI0073B_arm_neon_intrinsics_ref.pdf)
 ## 初始化寄存器
 - vcreate_type: 将一个64bit的数据装入vector中，并返回元素类型为type的vector。r=a
 - vdup_n_type/vmov_n_type: 用类型为type的数值，初始化一个元素类型为type的新vector的所有元素。ri=a 
